@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 def get_input():
-    data = np.genfromtxt('student_debt.csv',delimiter = ',')
+    data = np.genfromtxt('sinusoidal_example_data.csv',delimiter = ',')
     lin_regression(data)
 def lin_regression(data):
     
